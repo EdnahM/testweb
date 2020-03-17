@@ -5,26 +5,26 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>medical</title>
-    <link rel="icon" href="img/favicon.png">
+    <title>Quabot</title>
+    <link rel="icon" href="/static/img/favicon.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <!-- animate CSS -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="/static/css/animate.css">
     <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/css/owl.carousel.min.css">
     <!-- themify CSS -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="/static/css/themify-icons.css">
     <!-- flaticon CSS -->
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="/static/css/flaticon.css">
     <!-- magnific popup CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="/static/css/magnific-popup.css">
     <!-- nice select CSS -->
-    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="/static/css/nice-select.css">
     <!-- swiper CSS -->
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="/static/css/slick.css">
     <!-- style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.html"> <img src="/static/img/logo.png" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -45,13 +45,13 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav align-items-center">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link" href="{{url_for('index')}}">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">about</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="Doctor.html">Doctors</a>
+                                    <a class="nav-link" href="{{url_for(get_chatbot_response)}}">Chat</a>
                                 </li>
 
                                 <li class="nav-item dropdown">
@@ -119,7 +119,7 @@
                 <div class="col-lg-3 col-sm-12">
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="img/icon/feature_1.svg" alt=""></span>
+                            <span class="single_feature_icon"><img src="/static/img/icon/feature_1.svg" alt=""></span>
                             <h4>Better Future</h4>
                             <p>Darkness multiply rule Which from without life creature blessed
                                 give moveth moveth seas make day which divided our have.</p>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="img/icon/feature_2.svg" alt=""></span>
+                            <span class="single_feature_icon"><img src="/static/img/icon/feature_2.svg" alt=""></span>
                             <h4>Better Future</h4>
                             <p>Darkness multiply rule Which from without life creature blessed
                                 give moveth moveth seas make day which divided our have.</p>
@@ -136,13 +136,13 @@
                 </div>
                 <div class="col-lg-4 col-sm-12">
                         <div class="single_feature_img">
-                            <img src="img/service.png" alt="">
+                            <img src="/static/img/service.png" alt="">
                         </div>
                 </div>
                 <div class="col-lg-3 col-sm-12">
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="img/icon/feature_1.svg" alt=""></span>
+                            <span class="single_feature_icon"><img src="/static/img/icon/feature_1.svg" alt=""></span>
                             <h4>Better Future</h4>
                             <p>Darkness multiply rule Which from without life creature blessed
                                 give moveth moveth seas make day which divided our have.</p>
@@ -150,7 +150,7 @@
                     </div>
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="img/icon/feature_2.svg" alt=""></span>
+                            <span class="single_feature_icon"><img src="/static/img/icon/feature_2.svg" alt=""></span>
                             <h4>Better Future</h4>
                             <p>Darkness multiply rule Which from without life creature blessed
                                 give moveth moveth seas make day which divided our have.</p>
@@ -177,7 +177,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="img/doctor/doctor_1.png" alt="doctor">
+                            <img src="/static/img/doctor/doctor_1.png" alt="doctor">
                             <div class="social_icon">
                                 <ul>
                                     <li><a href="#"> <i class="ti-facebook"></i> </a></li>
@@ -198,7 +198,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="img/doctor/doctor_4.png" alt="doctor">
+                            <img src="/static/img/doctor/doctor_4.png" alt="doctor">
                             <div class="social_icon">
                                 <ul>
                                     <li><a href="#"> <i class="ti-facebook"></i> </a></li>
@@ -219,7 +219,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="img/doctor/doctor_2.png" alt="doctor">
+                            <img src="/static/img/doctor/doctor_2.png" alt="doctor">
                             <div class="social_icon">
                                 <ul>
                                     <li><a href="#"> <i class="ti-facebook"></i> </a></li>
@@ -240,7 +240,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="img/doctor/doctor_3.png" alt="doctor">
+                            <img src="/static/img/doctor/doctor_3.png" alt="doctor">
                             <div class="social_icon">
                                 <ul>
                                     <li><a href="#"> <i class="ti-facebook"></i> </a></li>
@@ -314,7 +314,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6">
                     <div class="reservation_img">
-                        <img src="img/reservation.png" alt="" class="reservation_img_iner">
+                        <img src="/static/img/reservation.png" alt="" class="reservation_img_iner">
                     </div>
                 </div>
             </div>
@@ -328,7 +328,7 @@
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
-                        <a href="#" class="footer_logo"> <img src="img/logo.png" alt="#"> </a>
+                        <a href="#" class="footer_logo"> <img src="/static/img/logo.png" alt="#"> </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                         <div class="social_logo">
                             <a href="#"><i class="ti-facebook"></i></a>
@@ -415,22 +415,22 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- jquery plugins here-->
 
-    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="/static/js/jquery-1.12.1.min.js"></script>
     <!-- popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
     <!-- owl carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/jquery.nice-select.min.js"></script>
     <!-- contact js -->
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/contact.js"></script>
+    <script src="/static/js/jquery.ajaxchimp.min.js"></script>
+    <script src="/static/js/jquery.form.js"></script>
+    <script src="/static/js/jquery.validate.min.js"></script>
+    <script src="/static/js/mail-script.js"></script>
+    <script src="/static/js/contact.js"></script>
     <!-- custom js -->
-    <script src="js/custom.js"></script>
+    <script src="/static/js/custom.js"></script>
 </body>
 
 </html>
