@@ -1,0 +1,154 @@
+{"intents": [
+    {
+        "tag":"greetings",
+        "patterns":["Hey","Hello","Watsup","Hi","Sasa","Niaje","Anyone"],
+        "responses":["Hello too, Quabot is here:","Hi,Quabot is here to give you help","Hey,Quabot is here,for your assistance:","Watsupp,Quabot is here worry less","Yes,Speak with Quabot here to help you:"],
+        "context": []
+
+    },
+    {
+        "tag":"goodbye",
+        "patterns":["Goodbye","Nice having You","See You","Nice Time","Bye","It was a pleasure"],
+        "responses":["Pleasure all mine!Bye.","Goodbye,Hoping to see you later","Blessed Time","Bye,take care"],
+        "context":[]
+
+    },
+    {
+        "tag": "Thanks",
+        "patterns": ["Thank You,you helped a lot thank you","appreciate your help","cheers","thank you","I appreciate alot,Thanks","thanks,","thanks a lot,","terrific thank you","thanks so much,","thank you so much","thanks for your help","thank you for your help","nice thank you","I appreciate it","I thank you","thank you that will be all","thanks buddy","well thanks","very good thank you","good thanks","thanks again","thank you again","all thank you","alright thank you","alright thanks","no thank you that's all","perfect thank you","so nice of you","well thank you","thnx","thanx"],
+        "responses" :["Pleasure all mine:","You are welcome","Thanks too","Welcome buddy","No worries,You are welcome","I appreciate too,wlecome","Am here anytime,Welcome","my pleasure","anytime","welcome","you're welcome","sure welcome","welcome here","you're so welcome","anything for you"],
+        "context":[]
+    },
+    {
+        "tag":"Allergy",
+        "patterns":["Nasal Congestion,itchy and watery eyes,sneezing,stuffy or runny nose,scratchy or sore throat, throat clearing,cough from postnasal drip "],
+        "responses":["You Might be having,an Allergy."],
+        "context": []
+    },
+    {
+        "tag": "Anaemia",
+        "patterns":["Feel tired or lightheaded (sometimes with fainting),Weakness,Fatigue easily,Have decreased energy,Appear pale,Develop palpitations or rapid heart rate,Experience shortness of breath"],
+        "responses":["You might be suffering from Anaemia"],
+        "context":[]
+    },
+    {
+        "tag":"cold/flu",
+        "patterns":["Headaches, body aches, fever, and flu-like symptoms,Nasal congestion, runny nose, and sneezing,Cough,Sore throat"],
+        "responses":["You might be having Cold or a flu"],
+        "context":[]
+
+    },
+    {
+        "tag":"asthma",
+        "patterns":["shortness of breath, chest pain,cough"],
+        "responses":["You might be having Asthma"],
+        "context":[]
+    },
+    {
+        "tag":"alheimers",
+        "patterns":["loss of orientation (to person, place, or time),agitation,irritability,quarrelsomeness, and a diminishing ability to care for him- or herself and to dress appropriately."], 
+        "responses":["You might be  suffering from alheimers"],
+        "context":[]
+    
+    },
+    {
+        "tag":"Pregnancies",
+        "patterns":[" absence of menstrual periods,breast swelling and tenderness.Food cravings"],
+        "responses":["you might be sufffering from Pregnany"],
+        "context":[]
+        
+    },
+    {
+        "tag": "hyperthyroid",
+        "patterns":["a rapid heart rate, excessive sweating, intolerance to heat, tremor, nervousness, or agitation. Other symptoms can include fatigue, weight loss, hair loss, increased appetite, problems with concentration, frequent bowel movements, and irregular or decreased menstrual blood flow in women"],
+        "responses":["You might be having Hyperthyroid"],
+        "context":[]
+        
+    },
+    {
+        "tag":"hypothyroid",
+        "patterns":["fatigue, depression, mild weight gain, cold intolerance, sleepiness, constipation dry and coarse hair, dry skin, and muscle cramps. Blood cholesterol levels may be elevated."],
+        "responses":["You might be having the hypothyroid condition"],
+        "context":[]
+    },
+    {
+        "tag":"diabetes",
+        "patterns":["dehydration,hunger,increased urination and increased thirst."],
+        "responses":["You might be having Diabettes"],
+        "context" :[]
+    },
+
+    {
+        "tag":"HI/AIDS",
+        "patterns":["fever, swollen lymph nodes, joint and muscle aches, and sore throat. chills, night sweats, and mouth ulcers. "],
+        "responses":["You might be having HIV/AIDS"],
+        "context":[]
+    },
+    {
+        "tag":"name",
+        "patterns":["So tell me ","Yes I need help","How do I go along with things Here","What is this and how will it help me","Am here to sick for help too","I need to get assisted"],
+        "responses":["Yes Lets start by telling me your name.","Lets sttart By letting me Know your name kindly.","Let me Know whom am speaking to first before we proceed","Yes,to whom am I chatting with ie Your Name"],
+        "context":[]
+    },
+    {
+        "tag": "resName",
+        "patterns": ["My name is Edna","I am Edna","I am Mary","I am Engineer","I go by the name Handsome","They call  me Angel","My name is Vincent","I am vincent","They call me Paul","I go by the name Tess","You can call me Eddy","You can call me Titus","I go by the name Mugoh"],
+        "response":["Nice Name!How do you need my assistance?","Thats a good name you got!Tell me how I can help you?","Wow I  love your name!How do you want Quabot to help you?","great name indeed!I am here for your assistance","I love it,Your name:Quabot is here to answer your needs,how can I assist you?"],
+        "context": []
+        },
+    {
+        "tag": "sickexpanation",
+        "patterns": ["I feel unwell","I feel tired","I dont think am in a good condtion","I think am sick","I need a checkup by a doctor","I feel general weakness in my body","I have a feeling of not being okay","I need a checkup","why am I ever tired","I feel am not okay bt am not sure if am sick"],
+        "response":["How are you feeling,have you had some rest","Please tell me more,I hope you have had some rest also","I hope its not as a result of fatigue,Please tell me more:","I need you to assure have had rest and taken enough water,Anway please elaborate how you are feeling in a better way","Am sorry,You need some rest and water,Kindly explain more of how you are feeling?"],
+        "context" : []
+    },
+    {
+        "tag": "empty",
+        "patterns": [],
+        "response":["Sorry, Kindly Ididn't get you","Please,pardon I didn't get you","Hello,You didn't type anything","I am waiting for your reply so as to answer,no reply sent","Kindly you sent an empty message"],
+        "context" : []
+    },
+    {
+        "tag": "feelLonely",
+        "patterns" : ["I feel Lonely","I need someone to talk to","Ineed to be spoken to","someone to kindly talk to me","Please talk to me","Kindly I need someone to speak to","Can I talk to someone","I feel the need to speak to someone","can I have some time with someone"],
+        "responses": ["Yes tell me something You need to be told"," Will a quote motivate you?","How about I send you a link to an image or youtube,Tell me link? or quote?"],
+        "context": []
+    },
+    {
+        "tag":"quote",
+        "patterns":["quote"],
+        "responses":["If life were predictable it would cease to be life and without Flavor","Spread love everywhere you go.Let no one ever come to you without leaving happier","When you reach the end of your rope,tie a knot in it and hang on","Always remember that you are absolutely unique.Just like everyone else"],
+        "context": []
+    },
+    {
+        "tag":"song",
+        "patterns":["link to songs","songs","song to listen","something to listen to","I need something to motivate me now"],
+        "responses":["https://www.google.com/search?client=ubuntu&hs=Znk&channel=fs&q=Tasha+Cobbs+Break+Every+Chain&stick=H4sIAAAAAAAAAIVTO2_UQBjEUoISXyJFpkGngI4UvJpbP3bXpqAgChURElxHYd16vfb5ed4158dvQEJC9EjUNPwMUlLQBFGAhERBT8kFcbumohzPfjPfznh3to_2ptHUrGBieam7tEZRKZZhNhFlEZ1p_3AK9iR1-jNt_wKaxAcmWqX5Bge22aaVlQ-OJ5AFG5oljutBUfylBYCNX_FsQ1O_cXyCE6mOfJd6livVC9NKLCo2OMEsIBwMliOmHTTSzcJmb1eOlGuKLgWdtGMI9BTFYLDsiqdILocQyN1KqSFMkFeruwhSw4KpaUYhUrSXuAQStsGRF3FY5UvJL2PcZX2k5GoSFVgmSQIPraOTWbCU23GLh8nmdgUVpCgRlgqWU5Blg6tAXKiLuzlN19WpYY-ZxaCVynawiq1rmgY2SE5DzCIn5hI7HMB2lQw2w34rSyJ1C6w0Ua0kvV3DQJXcOHaTJa1yT7vMRYNOgVcROZ2vKwPDGABdNbEU6ysTIyLNA8hTv7KledyJji8r-UPSrugBRqaUF3ke2QpThruqd2WLMfXbtsH2V-2nNjr48evLlfE37dW7D5-0z5p-8KgsRZh1T8JsXod0Vho39csnRb2oO-NQ3x_vTvPp-rkECbl9aTzSFTTeaProaVjPytOSLlhnvNSMF5q-exrmJOTiMTNmun5cZlkY1IuyMB7qR-Pr00B-mPIwKDldFJEfZM9FvZ5ZO0z0_5w5umPd-vj9_P32DX3r4smPdy42wg6r724daFc1-Pr82f17f6i9t9vXZnMRzyfHJSFi8oCH83Rysgp5NzmO54viNzPLAh1MBAAA&sa=X&ved=2ahUKEwjJi53XnZfoAhVNfMAKHYGjDRMQri4wF3oECAkQKg","https://www.google.com/search?client=ubuntu&hs=K8P&sa=X&channel=fs&q=Matt+Redman+10,000+Reasons+(Bless+the+Lord)&stick=H4sIAAAAAAAAAIVTvYvUQBw1cCdn9g6O2MgiEq_QOxV28jEziYWFotUdwnmdRdjJ5GPzucmMm4-_QRDEXrC28c_wSgubEwsFwcLe0qy4M-ksX9783vvNe5md7YPdWTQzKpj0CQx9cxKVbBlkOiuL6FzZcKabOksJe5La_bmyt4YG8YCBVmm-wb5ltGll5qPja-UNHSa240JW_KMZgI1X1dmGpl5jewQnQh15DnVNR6gXhpmYlG1wgkOf1GC0HDEsvxFuJjZ6q7KFXFN0KeiEXYhAT1EMRsuu6hSJ5RACuVNJNYQJcrm8CyMcFqGcDilEknYTh0ASbnDkRjWs8qXglzHusj6ScpxEBRZJEt9FQ3QiizCtrbjF42Rzq4ISUpQwUwZbU5Blo6tAXMiLOzlNh-rksBsaxaiVyrKxjK1rmgY2SExDHEZ2XAts1wC2q2S0GfZaURLhLTDTRLaS9BaHviy5sa0mS1rpnnaZg0adArciYjofKgPjGABdNbEQ6ysDIyLMfVinXmUJ87hjXb2sxA9Ju6IHGBlCnuV5ZElMQ9xVvSNajKnXtg22vim_lMn-z99fr06_K6_ff_ysfFHU_eOyZEHWnQbZnAf0rNRuqZcfF3zBO-26uje9Mstnw3PxE3J4aTpRJdTeKurkWcDPypOSLsJOe6VoLxX1ykmQk6BmT0PtTFUflVkW-HxRFtoT9WB6Y-aLD7M68MuaLorI87MXjA8zg4Ou_ufMwZF5-9OPiw_bN9Wt9ZOf7qw3wnbI72ztK9cU-Obi-YP7f6ndd9t3T-ac66cBzeeFboB7AIABzQeW6YcPs4AxnceBfjyYHP0BCSt6r1oEAAA&ved=2ahUKEwjn-pfZnZfoAhXymFwKHWVBD6oQri4wN3oECB8QNQ","https://www.google.com/search?client=ubuntu&hs=wnk&sa=X&channel=fs&q=Charles+Jenkins+Fellowship&stick=H4sIAAAAAAAAAIVTPW_UMBgmUovaXCtVx4JOFTo68LWc82E7YWCp6ICokKAbQ1THcXKJk1zscPn4DUhIiB2JmYWfQUcGliIGkJAY2Bm5Qs_Oxvj48fu87_s89tbmwe4snlkWs7HVO5Vrj-JSLiI-lWURnxk7F2QFU9vPvIWGPcnc_sz4V0oCYKFllq9x6FhtVtn54HoKWbimWep6PpTFJS0BbIJK8DVNg8YNCE6VOgo86tueUi8sO7WpXOMUs5AIMBiOWE7YqG6Xeym5pugy0Kl2DIGeogQMhl2KDKnhEAK5V2k1hAnya72LJDUsmK5mFCJN-6lHIGFrHPuxgFW-UPwiwR3vYy1Xk7jAykkS-mhlnfKCZcJJWjx0NncqqCFFqbS1sYICzgerQFzoxb2cZqvodLHPrGKQSuW4WNvWNU0DG6SqIWaxmwiFXQFgu0wHk-GgVSGRugV2lupU0t6pYahDblyn4Wmru2cd99AgU-BXRFXnq8jA0AZAl02ixPrKwoio5iEUWVA5qnnSyU4sKvUgaVf0ACNLycs8jx2NKcNd1XsqxYQGbdtg55vxyxjt_fz99drku_H6_cfPxhfD3HtcljLi3dOIn9YRPSnHt8yrD4t6XnfjfXN3sj3LZ6vvEqbkzpXJyNRw_NYwR8-i-qQ8LumcdeNXxvilYW4fRzmJhHzCxiemeVhyHoX1vCzGR-bB5MYsVAczEYWloPMiDkL-QtarmlWHqfmfOwd37duffpx_2Lxpblx8-cnWxUTYZfW9jT3jugHfnD9_cP8vtfNuc3KYnAoeyemjqMjmhZweRZyXjUzmiz82OFujSgQAAA&ved=2ahUKEwif_5rinZfoAhVOasAKHdJKAMMQri4wOnoECBwQTA"],
+        "context":[]
+    },
+    {
+        "tag" : "advisory",
+        "patterns": ["kindly advice me on living a healthy life","What is Being Healthy","I need to be healthy","What are the criterias of ne being healthy","How  can I refer to  myself as healthy","I need to be healthy and have a healthy living","How can you describe as healthiness"],
+        "responses":["Good Question,A healthy lifestyle is one which helps to keep and improve people's health and well-being. ... Healthy living is a lifelong effect. The ways to being healthy include healthy eating, physical activities, weight management, and stress management. Good health allows people to do many things freely","A healthy lifestyle is one which helps to keep and improve people's health and well-being. ... Healthy living is a lifelong effect. The ways to being healthy include healthy eating, physical activities, weight management, and stress management. Good health allows people to do many things,Lets purpose have a healthy life"],
+        "context": []
+    },
+    {
+        "tag": "Malaria",
+        "patterns" : ["Malaria disease","What is Malaria","Tell me more about Malaria","How can I know I have Malaria","What are the symptoms of Malaria"],
+        "responses" : ["Malaria can occur if a mosquito infected with the Plasmodium parasite bites you. There are four kinds of malaria parasites that can infect humans: Plasmodium vivax, P. ovale, P. malariae, and P. falciparum.Malaria is transmitted by blood, so it can also be transmitted through: an organ transplant,a transfusion,use of shared needles or syringes,Malaria symptoms include,shaking chills that can range from moderate to severe,high fever,profuse sweating,headache,nausea,vomiting,abdominal pain,diarrhea,anemia,muscle pain,convulsions,coma,bloody stools","Malaria is caused by mosquito Bites from anopheles Mosquito,malaria symptoms include,shaking chills that can range from moderate to severe,high fever,profuse sweating,headache,nausea,vomiting,abdominal pain,diarrhea,anemia,muscle pain,convulsions,coma,bloody stools"],
+        "context" : []
+    },
+    {
+        "tag" : "Obesity",
+        "patterns": ["What is Obessity in full.","Am I obesse","How can I curb obessity","Tell me any advice I can give to obesse people","Can obessity be Inheritance","I feel Obesse","Is obessity also over wieght","I need to cut my weight as I feel so obesse","I hate my shape ,i feel fat","Can I be fat and healthy","What is the measure of being obesse"],
+        "response" : ["Type Obessity for a more better Clarification on the topic?","Do you want to know Obessity in details,Type Obessity to get full information","Type obessity that I can explain for you obessity at a larger view."],
+        "context" : []
+    },
+    {
+        "tag" : "resobessity",
+        "patterns" : ["Obessity","Obesse","Obessity"],
+        "responses": ["Obesity is a medical condition that occurs when a person carries excess weight or body fat that might affect their health.The measurement combines height and weight. A BMI between 25 and 29.9 indicates that a person is carrying excess weight. A BMI of 30 or over suggests that a person may have obesity.Other factors, such as the ratio of waist-to-hip size (WHR), waist-to-height ratio (WtHR), and the amount and distribution of fat on the body also play a role in determining how healthy a person’s weight and body shape are,Maintaining a healthy weight or losing through diet and exercise is one way to prevent or reduce obesity.Main causes of obessity include: \n 1.Consuming too many calories \n 2.Leading a sedentary lifestyle \n 3.Not sleeping enough \n 4.Endocrine disruptors \n 5.Medications and weight gain \n 7.Obesity gene A faulty gene called the fat-mass and obesity-associated gene (FTO) is responsible for some cases of obesity."],
+        "context" : []
+    }
+    
+]}
