@@ -9,6 +9,37 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/blog')
+def blog():
+    return render_template('blog.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+@app.route('/dep')
+def dep():
+    return render_template('dep.html')
+
+@app.route('/services')
+def services():
+    return render_template('services.html')
+
+@app.route('/singleblog')
+def singleblog():
+    return render_template('single-blog.html')
+
+
+@app.route('/elements')
+def elements():
+    return render_template('elements.html')
+
+
+
 
 @app.route('/chat-api', methods=['POST'])
 def get_bot_response():
